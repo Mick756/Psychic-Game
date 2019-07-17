@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minecraft Word Guess!</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="defaults">
+    <div class="container">
+        <img src="assets/images/Guess-That-Word.png" alt="Guess that Word! Minecraft edition" id="titleImage">
+        <div class="messageBox" id="messageBox">Press Shift + s to start and/or reset the game!</div>
+        <div class="messageBox" id="wordToGuess">Guess this word: </div>
+        <div class="messageBox" id="userInput">You guessed: </div>
+        <div class="messageBox" id="lettersGuessed">You have guessed: </div>
+        <div class="messageBox" id="stats">Tries Left:  - Wins:  - Losses: - </div>
+    </div>
+    <script src="assets/js/logic.js">
+        startGame();
+    </script>
+</body>
+</html>
