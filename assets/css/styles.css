@@ -2,19 +2,22 @@
     background-image: url(../images/stone.jpg)
 }
 #titleImage {
+    margin-top: 20px;
     margin-left: 15%;
 }
+
 .messageBox {
     background-image: url(../images/grass.jpg);
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'MinecraftiaRegular';
     color: black;
     text-align: center;
     font-weight: bolder;
-    padding: 2%;
+    padding: 10px;
     border: 1px solid black;
+    z-index: 10;
 }
 #guessStyle {
     font-weight: bolder;
